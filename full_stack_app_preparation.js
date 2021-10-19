@@ -77,6 +77,6 @@
 // When the front-end makes a request regarding a specific game (SHOW, UPDATE, DELETE)..
 // The server access the ID of the particular game from the params object. This is always a string..
 // To query the database for an object of a particular ID, if we ask it for the object with the ID of string type..
-// It will never find a match. It needs us to make the query with an instance of `ObjectId`. 
+// It will never find a match. It needs us to make the query with an instance of `ObjectId`.. 
 // We create the instance of `ObjectId` by passing in the ID as a string, for example, `ObjectId("5af17fe430e043c3e62149b8")`.
 
